@@ -1,0 +1,27 @@
+{
+  "name": "atom-js-code-to-svg-to-preview",
+  "main": "./lib/atom-js-code-to-svg-to-preview",
+  "version": "0.0.0",
+  "description": "JS code selection to svg flowchart with live preview",
+  "keywords": [
+    "svg",
+    "flowchart",
+    "preview",
+    "javascript"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-js-code-to-svg-to-preview:toggle"
+  },
+  "repository": "https://github.com/gramparallelo/atom-js-code-to-svg-to-preview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "js2flowchart": "^1.1.0"
+  },
+  "package-deps": [
+    "svg-preview"
+  ]
+}

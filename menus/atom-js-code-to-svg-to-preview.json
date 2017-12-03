@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "JS to Flow Chart",
+        "command": "atom-js-code-to-svg-to-preview:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "JS to Flow Chart",
+          "submenu": [
+            {
+              "label": "JS to Flow Chart",
+              "command": "atom-js-code-to-svg-to-preview:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
