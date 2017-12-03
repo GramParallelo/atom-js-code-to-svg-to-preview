@@ -1,7 +1,7 @@
 {
   "name": "atom-js-code-to-svg-to-preview",
   "main": "./lib/atom-js-code-to-svg-to-preview",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JS code selection to svg flowchart with live preview",
   "keywords": [
     "svg",
